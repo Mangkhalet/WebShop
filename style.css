@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+#main {
+    background-color: F6F7FB
+}
+
+.height {
+    height: 10vh;
+}
+
+.search {
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+    width: 760px;
+    height: 53px;
+}
+
+.search input {
+    height: 40px;
+    text-indent: 25px;
+    border: 2px solid #d6d4d4;
+}
+
+.search input:focus {
+    box-shadow: none;
+    border: 2px solid blue;
+}
+
+.search .fa-search {
+    position: absolute;
+    top: 20px;
+    left: 16px;
+}
+
+.search button {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 40px;
+    width: 110px;
+    background: blue;
+}
+
+body {
+    position: absolute;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 50px;
+    margin: auto;
+    text-decoration: none;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.hmenul {
+    position: absolute;
+    width: 760px;
+    height: 53px;
+    left: 296px;
+    top: 70px;
+    background: #58BAAB;
+    border-radius: 20px;
+}
+
+.headermenu {
+    position: absolute;
+    width: 1518px;
+    height: 174px;
+    left: 0px;
+    top: 1px;
+    background: #F6BC00;
+}
+
+
+/*.menu {
+    font-family: 'Itim', cursive;
+    position: absolute;
+    width: 250px;
+    height: 850px;
+    left: 0px;
+    top: 174px;
+    background: #FCD857;
+    border: 1px solid #B07979;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}*/
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    width: 250px;
+    background-color: #FCD857;
+    border: 1px solid #555;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    width: 250px;
+    height: 850px;
+    left: 0px;
+    top: 174px;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+li {
+    text-align: center;
+    border-bottom: 2px solid #555;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.li {
+    list-style: none;
+}
+
+.hr {
+    position: absolute;
+    width: 250px;
+    height: 0px;
+    left: 0px;
+    top: 617px;
+    border: 1px solid #000000;
+}
+
+.Userright {
+    top: 50px;
+    position: absolute;
+    width: 94px;
+    height: 58px;
+    left: 1087px;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 58px;
+    text-align: center;
+    color: #000000;
+}
+
+.Basketright {
+    position: absolute;
+    top: 50px;
+    width: 215px;
+    height: 58px;
+    left: 1217px;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 58px;
+    text-align: center;
+    color: #000000;
+}
+
+.buttonm1 {
+    position: absolute;
+    width: 424px;
+    height: 81px;
+    left: 270px;
+    top: 550px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.buttonm2 {
+    position: absolute;
+    width: 468px;
+    height: 81px;
+    left: 800px;
+    top: 550px;
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.pm1 {
+    position: absolute;
+    width: 971px;
+    height: 70px;
+    left: 190px;
+    top: 200px;
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 58px;
+    text-align: center;
+}
+
+.inform1 {
+    position: absolute;
+    width: 517px;
+    height: 500px;
+    left: 923px;
+    top: 300px;
+    background: #C4C4C4;
+    border-radius: 10px;
+}
+
+.buttonk1 {
+    position: absolute;
+    width: 424px;
+    height: 81px;
+    left: 270px;
+    top: 550px;
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.buttonk2 {
+    position: absolute;
+    width: 468px;
+    height: 81px;
+    left: 800px;
+    top: 550px;
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.buttonmon1 {
+    position: absolute;
+    width: 424px;
+    height: 81px;
+    left: 270px;
+    top: 550px;
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.buttonmon2 {
+    position: absolute;
+    width: 468px;
+    height: 81px;
+    left: 800px;
+    top: 550px;
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 25px;
+    text-align: center;
+}
